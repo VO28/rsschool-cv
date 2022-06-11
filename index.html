@@ -5,41 +5,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="nav">
-        <a class="nav-item" href="#about">About Me</a>
-        <a class="nav-item" href="#education">Education</a>
-        <a class="nav-item" href="#projects">Projects</a>
-        <a class="nav-item" href="#video">Video</a>
-        <a class="nav-item" href="#code-example">Code</a>
-    </nav>
-    <header>
-        <img src="img/фото.jpg" alt="мое фото">
-        <h1>Viktor Osipenko</h1>
-    </header>
-    <main>
-        <h3>Контакты</h3>
-        <ul>
-            <li>Phone: +375(29)996-34-61</li>
-            <li><a href="https://www.linkedin.com/in/виктор-осипенко-40a4a61a1/"> LinkedIn</a></li>
-        </ul>
-        <h3>About Me</h3>
-        <h3>Skills</h3>
-        <h3>Code Example</h3>
-        <h3>Projects</h3>
-        <h3>Education</h3>
-    </main>
-    <footer>
-        <a href=" https://github.com/VO28">Мой github</a>
+    <div class="wrapper">
+        <nav class="nav">
+            <a class="nav-item" href="#about">About Me</a>
+            <a class="nav-item" href="#education">Education</a>
+            <a class="nav-item" href="#projects">Projects</a>
+            <a class="nav-item" href="#video">Video</a>
+            <a class="nav-item" href="#code-example">Code</a>
+        </nav>
+        <main class="main">
 
-        2021
-        <a href="https://rs.school/js/">
-            <img src="img/rs_school_js.svg" alt="RS_School_Logo">
-        </a>
-    </footer>
+
+            <div class="infoLeft">
+                <img src="img/фото.jpg" alt="мое фото">
+                <h3>Contacts</h3>
+                <ul>
+                    <li>Phone: +375(29)996-34-61</li>
+                    <li><a href="https://www.linkedin.com/in/виктор-осипенко-40a4a61a1/"> LinkedIn</a></li>
+                </ul>
+                <h3>Skills</h3>
+            </div>
+            <section>
+                <header class="head">
+                    <h1>Viktor Osipenko</h1>
+                </header>
+                <div>
+                    <h3>About Me</h3>
+                    <p>I am a graduate of Francisk Skorina Gomel State University.</p>
+                    <p>I work as a 1C developer.</p>
+                    <p>I want to learn front-end development.</p>
+                </div>
+                <h3>Code Example</h3>
+                <h3>Projects</h3>
+                <h3>Education</h3>
+            </section>
+        </main>
+        <footer>
+            <div class="footer__inner">
+                <div class="myGithub"><a href=" https://github.com/VO28">Github</a></div>
+                <div class="RS_SchoolLogo">
+                    <a href="https://rs.school/js/">
+                        <img src="img/rs_school_js.svg" alt="RS_School_Logo" class="footer__image">
+                    </a>
+                </div>
+                <div class="year">2022</div>
+            </div>
+        </footer>
+    </div>
+
 </body>
 
 </html>
