@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-color);
+}
+
+.footer-rsschool>a>img {
+    width: 100px;
+    position: relative;
+    top: 3px;
+}
