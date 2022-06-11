@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoLeft {
+    background-color: rgb(247, 252, 189);
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgb(252, 249, 214);
+}
+
+
+.footer__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 215, 215);
+}
+
+.footer__image {
+    width: 70px;
+    margin: 0 10px;
+}
